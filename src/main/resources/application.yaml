@@ -1,0 +1,17 @@
+# Framework configurations.
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: user
+      password: user
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+
+# Properties used by configuration file.
+application:
+  fhir-server-configs:
+      url: localhost:8080/fhir
+      scheme: http
